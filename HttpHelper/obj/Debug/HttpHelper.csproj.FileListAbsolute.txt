@@ -1,0 +1,9 @@
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\bin\Debug\HttpHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\bin\Debug\HttpHelper.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\bin\Debug\Newtonsoft.Json.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\bin\Debug\Newtonsoft.Json.xml
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\obj\Debug\HttpHelper.csproj.AssemblyReference.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\obj\Debug\HttpHelper.csproj.CoreCompileInputs.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\obj\Debug\HttpHelper.csproj.CopyComplete
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\obj\Debug\HttpHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\HttpHelper\obj\Debug\HttpHelper.pdb

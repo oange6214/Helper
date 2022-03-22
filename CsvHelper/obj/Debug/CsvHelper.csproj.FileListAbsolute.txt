@@ -1,0 +1,6 @@
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CsvHelper\bin\Debug\CsvHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CsvHelper\bin\Debug\CsvHelper.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CsvHelper\obj\Debug\CsvHelper.csproj.AssemblyReference.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CsvHelper\obj\Debug\CsvHelper.csproj.CoreCompileInputs.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CsvHelper\obj\Debug\CsvHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CsvHelper\obj\Debug\CsvHelper.pdb

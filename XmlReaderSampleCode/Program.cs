@@ -17,7 +17,7 @@ namespace XmlReaderSampleCode
 
 
             //string filePath = @"D:\C#\DrawSampleCode\HelperSample\HelperSample\Source\username.csv";
-            string filePath = @"D:\C#\DrawSampleCode\HelperSample\HelperSample\Source\xmlFile.xml";
+            string filePath = @"D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\Assets\xmlFile.xml";
 
             //var dt = CsvHelper.GetDatatTableFromCsv(strFilePath);
 
