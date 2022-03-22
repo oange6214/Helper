@@ -1,0 +1,9 @@
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\bin\Debug\Log4NetHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\bin\Debug\Log4NetHelper.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\bin\Debug\log4net.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\bin\Debug\log4net.xml
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\obj\Debug\Log4NetHelper.csproj.AssemblyReference.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\obj\Debug\Log4NetHelper.csproj.CoreCompileInputs.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\obj\Debug\Log4NetHelper.csproj.CopyComplete
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\obj\Debug\Log4NetHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Log4NetHelper\obj\Debug\Log4NetHelper.pdb
