@@ -1,7 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,7 +29,7 @@ namespace HTTP
                 response.EnsureSuccessStatusCode();
                 result = response.Content.ReadAsStringAsync().Result;
             }
-            catch (Exception ex) { }
+            catch { }
 
 
             return result;

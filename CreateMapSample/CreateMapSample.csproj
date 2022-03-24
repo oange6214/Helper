@@ -83,6 +83,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Converters\PathToImageConverter.cs" />
+    <Compile Include="Models\MapCfg.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\ViewModelLocator.cs" />
     <Page Include="MainWindow.xaml">
@@ -139,12 +140,37 @@
       <Project>{FB634D9F-5C0C-4BF4-BF3B-8B2A13919895}</Project>
       <Name>HttpHelper</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XmlHelper\XmlHelper.csproj">
+      <Project>{08BF0A03-CE00-4FCF-9CD5-1DDD5D389E41}</Project>
+      <Name>XmlHelper</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Assets\地图-16B208EEE321108.xml" />
+    <Resource Include="Assets\地图-16B8D310BB71169.xml" />
+    <Resource Include="Assets\地图-170CC82AFE711KA.xml" />
+    <Resource Include="Assets\地图-171A0944F6211ZD.xml" />
+    <Content Include="Images\ChargingPile.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Load.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Notice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Park.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Point.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\WMS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\AGV.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

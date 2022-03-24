@@ -4,3 +4,4 @@ D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Debug\Common.csproj.Assembly
 D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Debug\Common.dll
 D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Debug\Common.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\bin\Debug\Common.dll.config

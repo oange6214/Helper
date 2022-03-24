@@ -25,7 +25,7 @@ namespace CreateMapSample.Converters
                         image.EndInit();
                     }
                 }
-                catch (Exception ex) { }
+                catch { }
 
                 return image;
             }

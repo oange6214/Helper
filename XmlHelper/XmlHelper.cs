@@ -181,5 +181,14 @@ namespace XML
 
             return sb.ToString();
         }
+
+        public static string XmlGetNode(string xmlFile, string nodeName)
+        {
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(xmlFile);
+            XmlNodeList xmlNodeList = xmlDoc.SelectNodes("MapCfg/MapName", null);
+
+            return xmlNodeList[0].InnerText;
+        }
     }
 }

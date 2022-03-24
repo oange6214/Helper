@@ -39,3 +39,13 @@ D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\System.Securi
 D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\System.Security.Permissions.xml
 D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\System.Security.Principal.Windows.xml
 D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\obj\Debug\CreateMapSample_Content.g.cs
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Common.dll.config
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\HIKROBOT.dll.config
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\XmlHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\XmlHelper.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Images\ChargingPile.png
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Images\Load.png
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Images\Notice.png
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Images\Park.png
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Images\Point.png
+D:\C#\DrawSampleCode\XmlReaderSampleCode\CreateMapSample\bin\Debug\Images\WMS.png

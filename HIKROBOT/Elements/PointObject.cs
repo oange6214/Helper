@@ -1,18 +1,13 @@
 ﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace HIKROBOT.Elements
 {
-    public class RobotObject : INotifyPropertyChanged
+    public class PointObject : INotifyPropertyChanged, IObject
     {
-        public RobotObject()
+        public PointObject()
         {
         }
-
-
-        #region Public Field
-        public event PropertyChangedEventHandler PropertyChanged;
-        #endregion
-
 
         #region Public Properties
 
@@ -23,7 +18,7 @@ namespace HIKROBOT.Elements
         public double X
         {
             get { return _x; }
-            set { _x = value; }
+            set { _x = value; RaisePropertyChanged(); }
         }
 
         private double _y;
@@ -33,7 +28,7 @@ namespace HIKROBOT.Elements
         public double Y
         {
             get { return _y; }
-            set { _y = value; }
+            set { _y = value; RaisePropertyChanged(); }
         }
 
         private double _width;
@@ -70,5 +65,11 @@ namespace HIKROBOT.Elements
         }
 
         #endregion
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

@@ -1,9 +1,6 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-
-namespace CreateMapSample.ViewModels
+﻿namespace CreateMapSample.ViewModels
 {
-    public class ViewModelLocator : INotifyPropertyChanged
+    public class ViewModelLocator
     {
         public ViewModelLocator()
         {
@@ -16,14 +13,14 @@ namespace CreateMapSample.ViewModels
         public MainViewModel Main
         {
             get { return _main; }
-            set { _main = value; RaisePropertyChanged(); }
+            set { _main = value; }
         }
 
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        public virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        //public event PropertyChangedEventHandler PropertyChanged;
+        //public virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
+        //{
+        //    this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        //}
     }
 }

@@ -5,9 +5,10 @@
     xmlns:b="http://schemas.microsoft.com/expression/2010/interactivity"
     xmlns:converter="clr-namespace:CreateMapSample.Converters"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:hikrobot="clr-namespace:HIKROBOT.Robots;assembly=HIKROBOT"
+    xmlns:ele="clr-namespace:HIKROBOT.Elements;assembly=HIKROBOT"
     xmlns:local="clr-namespace:CreateMapSample"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:robots="clr-namespace:HIKROBOT.Robots;assembly=HIKROBOT"
     Title="MainWindow"
     Width="800"
     Height="450"
@@ -17,71 +18,127 @@
     <Window.Resources>
         <converter:PathToImageConverter x:Key="pathToImageConverter" />
         <converter:HalfDoubleConverter x:Key="halfDoubleConverter" />
-
-        <Style x:Key="MyItemsControlStyle" TargetType="ItemsControl">
-            <Setter Property="ItemsPanel">
-                <Setter.Value>
-                    <ItemsPanelTemplate>
-                        <Canvas />
-                    </ItemsPanelTemplate>
-                </Setter.Value>
-            </Setter>
-            <Setter Property="ItemContainerStyle">
-                <Setter.Value>
-                    <Style>
-                        <Setter Property="Canvas.Left" Value="{Binding X}" />
-                        <Setter Property="Canvas.Top" Value="{Binding Y}" />
-                    </Style>
-                </Setter.Value>
-            </Setter>
-            <Setter Property="ItemTemplate">
-                <Setter.Value>
-                    <DataTemplate DataType="{x:Type hikrobot:AGV}">
-                        <Border>
-                            <Image
-                                Width="{Binding Width}"
-                                Height="{Binding Height}"
-                                Source="{Binding SourceImage, Converter={StaticResource pathToImageConverter}}"
-                                Tag="{Binding AgvStatusData.robotCode}"
-                                ToolTip="{Binding AgvStatusData.battery}" />
-                        </Border>
-                    </DataTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
     </Window.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50" />
+            <RowDefinition Height="60" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Button
-            Grid.Row="0"
-            Width="50"
-            Height="50"
-            Command="{Binding QueryAgvStatusCommand}"
-            Content="Request" />
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button
+                Width="50"
+                Height="50"
+                Margin="5"
+                Command="{Binding QueryNormalAgvStatusCommand}"
+                Content="N Req" />
 
-        <Canvas
-            x:Name="backCanvas"
-            Grid.Row="1"
-            Grid.Column="0"
-            Grid.ColumnSpan="2"
-            Background="Transparent">
-            <b:Interaction.Triggers>
-                <b:EventTrigger EventName="PreviewMouseWheel">
-                    <b:InvokeCommandAction Command="{Binding PlacePreviewMouseWheel}" />
-                </b:EventTrigger>
-            </b:Interaction.Triggers>
+            <Button
+                Width="50"
+                Height="50"
+                Margin="5"
+                Command="{Binding QueryAgvStatusCommand}"
+                Content="O Req" />
 
-            <Canvas x:Name="foreCanvas">
-                <Canvas.RenderTransform>
-                    <ScaleTransform CenterX="{Binding MapWidth, Converter={StaticResource halfDoubleConverter}}" CenterY="{Binding MapHeight, Converter={StaticResource halfDoubleConverter}}" ScaleX="{Binding ForeCanvasScaleTransformX}" ScaleY="{Binding ForeCanvasScaleTransformY}" />
-                </Canvas.RenderTransform>
+            <Button
+                Width="50"
+                Height="50"
+                Margin="5"
+                Command="{Binding QueryAnimationAgvStatusCommand}"
+                Content="A Req" />
+            <ComboBox
+                Width="100"
+                Height="30"
+                VerticalContentAlignment="Center"
+                ItemsSource="{Binding MapQueueDict.Keys}"
+                SelectedValue="{Binding MapSelect}" />
 
-                <ItemsControl ItemsSource="{Binding StageAGVs}" Style="{StaticResource MyItemsControlStyle}" />
+        </StackPanel>
+
+        <Grid Grid.Row="1" Background="#102035">
+            <Grid.Resources>
+                <Pen x:Key="GrayPenKey" Brush="Gray" />
+                <GeometryDrawing
+                    x:Key="SmallGridDrawing"
+                    Geometry="M 0 0 L 40 0 L 40 40"
+                    Pen="{StaticResource GrayPenKey}" />
+                <GeometryDrawing
+                    x:Key="LargeGridDrawing"
+                    Geometry="M 0 0 L 200 0 L 200 200"
+                    Pen="{StaticResource GrayPenKey}" />
+                <DrawingBrush
+                    x:Key="SmallGridBrush"
+                    Drawing="{StaticResource SmallGridDrawing}"
+                    Opacity="0.5"
+                    TileMode="Tile"
+                    Viewport="0 0 20 20"
+                    ViewportUnits="Absolute" />
+                <DrawingBrush
+                    x:Key="LargeGridBrush"
+                    Drawing="{StaticResource LargeGridDrawing}"
+                    TileMode="Tile"
+                    Viewport="20 20 200 200"
+                    ViewportUnits="Absolute" />
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="6*" />
+                <ColumnDefinition Width="19*" />
+            </Grid.ColumnDefinitions>
+            <Canvas Grid.ColumnSpan="2" Background="{StaticResource SmallGridBrush}" />
+            <Canvas Grid.ColumnSpan="2" Background="{StaticResource LargeGridBrush}" />
+
+            <Button
+                Width="80"
+                Height="80"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="Button_Click">
+                <Button.RenderTransform>
+                    <TranslateTransform x:Name="tt" X="0" Y="0" />
+                </Button.RenderTransform>
+            </Button>
+
+            <Canvas
+                x:Name="backCanvas"
+                Canvas.Left="{Binding XOffset}"
+                Canvas.Top="{Binding YOffset}"
+                Width="{Binding MapWidth}"
+                Height="{Binding MapHeight}">
+                <Canvas x:Name="foreCanvas">
+                    <ItemsControl ItemsSource="{Binding StageCollection}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Canvas />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style>
+                                <Setter Property="Canvas.Left" Value="{Binding X}" />
+                                <Setter Property="Canvas.Top" Value="{Binding Y}" />
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border>
+                                    <Image
+                                        Width="{Binding Width}"
+                                        Height="{Binding Height}"
+                                        Source="{Binding SourceImage, Converter={StaticResource pathToImageConverter}}" />
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    <Canvas.RenderTransform>
+                        <ScaleTransform CenterX="{Binding MapWidth, Converter={StaticResource halfDoubleConverter}}" CenterY="{Binding MapHeight, Converter={StaticResource halfDoubleConverter}}" ScaleX="{Binding ForeCanvasScaleTransformX}" ScaleY="{Binding ForeCanvasScaleTransformY}" />
+                    </Canvas.RenderTransform>
+                </Canvas>
+
+                <b:Interaction.Triggers>
+                    <b:EventTrigger EventName="PreviewMouseWheel">
+                        <b:InvokeCommandAction Command="{Binding PlacePreviewMouseWheel}" />
+                    </b:EventTrigger>
+                </b:Interaction.Triggers>
             </Canvas>
-        </Canvas>
+        </Grid>
     </Grid>
 </Window>

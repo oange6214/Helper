@@ -8,6 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/chargingpile.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/load.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/notice.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/park.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/point.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/wms.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/agv.png")]
 
 

@@ -1,5 +1,4 @@
-﻿using Log4NetHelper;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using XML;
 using XmlReaderSampleCode.Models;
