@@ -60,9 +60,6 @@
     <Compile Include="Request\queryAgvStatus.cs" />
     <Compile Include="Robots\AGV.cs" />
     <Compile Include="Robots\ChargingPile.cs" />
-    <Compile Include="UI\UserControl1.xaml.cs">
-      <DependentUpon>UserControl1.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
@@ -74,10 +71,7 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="UI\UserControl1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Folder Include="UI\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

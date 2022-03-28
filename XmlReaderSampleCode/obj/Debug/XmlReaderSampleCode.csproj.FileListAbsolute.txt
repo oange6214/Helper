@@ -2,8 +2,12 @@ D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlReader
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlReaderSampleCode.exe
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlReaderSampleCode.pdb
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\Log4NetHelper.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\Newtonsoft.Json.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlHelper.dll
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\log4net.dll
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\Log4NetHelper.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlHelper.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\Newtonsoft.Json.xml
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\log4net.xml
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\obj\Debug\XmlReaderSampleCode.csproj.AssemblyReference.cache
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\obj\Debug\XmlReaderSampleCode.csproj.SuggestedBindingRedirects.cache
@@ -11,7 +15,3 @@ D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\obj\Debug\XmlReader
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\obj\Debug\XmlReaderSampleCode.csproj.CopyComplete
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\obj\Debug\XmlReaderSampleCode.exe
 D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\obj\Debug\XmlReaderSampleCode.pdb
-D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\Newtonsoft.Json.dll
-D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlHelper.dll
-D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\XmlHelper.pdb
-D:\C#\DrawSampleCode\XmlReaderSampleCode\XmlReaderSampleCode\bin\Debug\Newtonsoft.Json.xml

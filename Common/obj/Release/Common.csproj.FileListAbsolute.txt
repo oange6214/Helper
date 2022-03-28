@@ -1,0 +1,7 @@
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\bin\Release\Common.dll.config
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\bin\Release\Common.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\bin\Release\Common.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Release\Common.csproj.AssemblyReference.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Release\Common.dll
+D:\C#\DrawSampleCode\XmlReaderSampleCode\Common\obj\Release\Common.pdb

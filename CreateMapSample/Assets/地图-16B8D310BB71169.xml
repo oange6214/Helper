@@ -1,767 +1,773 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MapCfg>
-<MapName>CareerDemo</MapName>
-<MapType>2</MapType>
-<MapQRCode>PP</MapQRCode>
-<Row>200</Row>
-<Col>200</Col><Width>1200</Width><Height>1200</Height>
-<PointInfo>
-<id>0</id>
-<xpos>100.000</xpos>
-<ypos>100.000</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>10</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>1</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>1</id>
-<xpos>101.110</xpos>
-<ypos>100.000</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>0</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>2</id>
-<distance>0.700</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>2</id>
-<xpos>101.810</xpos>
-<ypos>100.000</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>1</id>
-<distance>0.700</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>3</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>3</id>
-<xpos>102.920</xpos>
-<ypos>100.000</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>10</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>2</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>4</id>
-<distance>0.555</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>4</id>
-<xpos>103.475</xpos>
-<ypos>100.000</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>5</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>3</id>
-<distance>0.555</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>5</id>
-<xpos>103.475</xpos>
-<ypos>101.110</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>4</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>6</id>
-<distance>0.700</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>6</id>
-<xpos>103.475</xpos>
-<ypos>101.810</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>5</id>
-<distance>0.700</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>7</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>7</id>
-<xpos>103.475</xpos>
-<ypos>102.920</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>6</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>8</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>8</id>
-<xpos>103.475</xpos>
-<ypos>104.030</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>7</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>9</id>
-<distance>0.700</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>9</id>
-<xpos>103.475</xpos>
-<ypos>104.730</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>8</id>
-<distance>0.700</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>10</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>10</id>
-<xpos>103.475</xpos>
-<ypos>105.840</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>9</id>
-<distance>1.110</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>11</id>
-<distance>1.460</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>11</id>
-<xpos>103.475</xpos>
-<ypos>107.300</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>10</id>
-<distance>1.460</distance>
-<Rever>0</Rever>
-<Speed>1.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>12</id>
-<distance>1.517</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>21</id>
-<distance>1.250</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>12</id>
-<xpos>103.475</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>11</id>
-<distance>1.517</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>13</id>
-<distance>1.250</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>13</id>
-<xpos>104.725</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>10</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>12</id>
-<distance>1.250</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>14</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>14</id>
-<xpos>105.535</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>13</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>15</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>15</id>
-<xpos>106.345</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>14</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>16</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>16</id>
-<xpos>107.155</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>15</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>17</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>17</id>
-<xpos>107.965</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>16</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>18</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>18</id>
-<xpos>108.775</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>16</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>17</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>19</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>19</id>
-<xpos>109.585</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>10</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>18</id>
-<distance>0.810</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-<id>20</id>
-<distance>0.710</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>20</id>
-<xpos>110.295</xpos>
-<ypos>108.817</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>11</value>
-<RoadProperty>0</RoadProperty>
-<Rot>0</Rot>
-<alldirRot>0</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>19</id>
-<distance>0.710</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PointInfo>
-<id>21</id>
-<xpos>104.725</xpos>
-<ypos>107.300</ypos>
-<width>0.500</width>
-<height>0.500</height>
-<value>10</value>
-<RoadProperty>0</RoadProperty>
-<Rot>1</Rot>
-<alldirRot>1</alldirRot>
-<Dir>1</Dir>
-<allDir>9</allDir>
-<robottype>0</robottype>
-<RotUnderPod>1</RotUnderPod>
-<TranZoneType ParkType="-1">0</TranZoneType>
-<NeighbInfo>
-<id>11</id>
-<distance>1.250</distance>
-<Rever>0</Rever>
-<Speed>0.0</Speed>
-<Ultrasonic>0</Ultrasonic>
-<LeftWidth>0</LeftWidth>
-<RightWidth>0</RightWidth>
-<robottype>0</robottype>
-<PodDir>999</PodDir>
-</NeighbInfo>
-</PointInfo>
-<PodPosTrust>0</PodPosTrust><ActUnderPod>0</ActUnderPod><XOffset>0</XOffset><YOffset>0</YOffset></MapCfg>
+	<MapName>CareerDemo</MapName>
+	<MapType>2</MapType>
+	<MapQRCode>PP</MapQRCode>
+	<Row>200</Row>
+	<Col>200</Col>
+	<Width>1200</Width>
+	<Height>1200</Height>
+	<PointInfo>
+		<id>0</id>
+		<xpos>100.000</xpos>
+		<ypos>100.000</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>10</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>1</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>1</id>
+		<xpos>101.110</xpos>
+		<ypos>100.000</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>0</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>2</id>
+			<distance>0.700</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>2</id>
+		<xpos>101.810</xpos>
+		<ypos>100.000</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>1</id>
+			<distance>0.700</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>3</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>3</id>
+		<xpos>102.920</xpos>
+		<ypos>100.000</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>10</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>2</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>4</id>
+			<distance>0.555</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>4</id>
+		<xpos>103.475</xpos>
+		<ypos>100.000</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>5</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>3</id>
+			<distance>0.555</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>5</id>
+		<xpos>103.475</xpos>
+		<ypos>101.110</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>4</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>6</id>
+			<distance>0.700</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>6</id>
+		<xpos>103.475</xpos>
+		<ypos>101.810</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>5</id>
+			<distance>0.700</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>7</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>7</id>
+		<xpos>103.475</xpos>
+		<ypos>102.920</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>6</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>8</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>8</id>
+		<xpos>103.475</xpos>
+		<ypos>104.030</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>7</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>9</id>
+			<distance>0.700</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>9</id>
+		<xpos>103.475</xpos>
+		<ypos>104.730</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>8</id>
+			<distance>0.700</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>10</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>10</id>
+		<xpos>103.475</xpos>
+		<ypos>105.840</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>9</id>
+			<distance>1.110</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>11</id>
+			<distance>1.460</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>11</id>
+		<xpos>103.475</xpos>
+		<ypos>107.300</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>10</id>
+			<distance>1.460</distance>
+			<Rever>0</Rever>
+			<Speed>1.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>12</id>
+			<distance>1.517</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>21</id>
+			<distance>1.250</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>12</id>
+		<xpos>103.475</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>11</id>
+			<distance>1.517</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>13</id>
+			<distance>1.250</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>13</id>
+		<xpos>104.725</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>10</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>12</id>
+			<distance>1.250</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>14</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>14</id>
+		<xpos>105.535</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>13</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>15</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>15</id>
+		<xpos>106.345</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>14</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>16</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>16</id>
+		<xpos>107.155</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>15</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>17</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>17</id>
+		<xpos>107.965</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>16</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>18</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>18</id>
+		<xpos>108.775</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>16</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>17</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>19</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>19</id>
+		<xpos>109.585</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>10</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>18</id>
+			<distance>0.810</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+			<id>20</id>
+			<distance>0.710</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>20</id>
+		<xpos>110.295</xpos>
+		<ypos>108.817</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>11</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>0</Rot>
+		<alldirRot>0</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>19</id>
+			<distance>0.710</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PointInfo>
+		<id>21</id>
+		<xpos>104.725</xpos>
+		<ypos>107.300</ypos>
+		<width>0.500</width>
+		<height>0.500</height>
+		<value>10</value>
+		<RoadProperty>0</RoadProperty>
+		<Rot>1</Rot>
+		<alldirRot>1</alldirRot>
+		<Dir>1</Dir>
+		<allDir>9</allDir>
+		<robottype>0</robottype>
+		<RotUnderPod>1</RotUnderPod>
+		<TranZoneType ParkType="-1">0</TranZoneType>
+		<NeighbInfo>
+			<id>11</id>
+			<distance>1.250</distance>
+			<Rever>0</Rever>
+			<Speed>0.0</Speed>
+			<Ultrasonic>0</Ultrasonic>
+			<LeftWidth>0</LeftWidth>
+			<RightWidth>0</RightWidth>
+			<robottype>0</robottype>
+			<PodDir>999</PodDir>
+		</NeighbInfo>
+	</PointInfo>
+	<PodPosTrust>0</PodPosTrust>
+	<ActUnderPod>0</ActUnderPod>
+	<XOffset>0</XOffset>
+	<YOffset>0</YOffset>
+</MapCfg>
