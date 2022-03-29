@@ -1,0 +1,8 @@
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\bin\Debug\EnumSample.exe.config
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\bin\Debug\EnumSample.exe
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\bin\Debug\EnumSample.pdb
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\obj\Debug\EnumSample.csproj.AssemblyReference.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\obj\Debug\EnumSample.csproj.SuggestedBindingRedirects.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\obj\Debug\EnumSample.csproj.CoreCompileInputs.cache
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\obj\Debug\EnumSample.exe
+D:\C#\DrawSampleCode\XmlReaderSampleCode\EnumSample\obj\Debug\EnumSample.pdb
